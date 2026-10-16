@@ -11,3 +11,9 @@
 正式基线可运行`python starter/runner.py --split evaluation --condition all --limit 32 --paid --config config.local.json`；冻结改进后用`--condition R0 --variant improved --limit 8`运行配对任务。命令执行前检查模型费用、输入、配置和调用上限。结果默认保存在`runs/`，`export_runs.py`可导出索引。
 
 完整题目、目录和声明以进阶/05_提交与报告格式.md为准。
+## 复算入口
+
+- 正式基线：`python starter/runner.py --split evaluation --condition all --limit 32 --paid --config config.local.json`
+- 改进配对：`python starter/runner.py --split evaluation --condition R0 --variant improved --limit 8 --paid --config config.local.json`
+- 逐例表：`results/results.csv`
+- 原始运行记录：`runs/`
