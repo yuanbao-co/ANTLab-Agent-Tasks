@@ -1,0 +1,18 @@
+{
+  "request_id": "deaba998-fe85-4745-ad30-74171bbdf4c9",
+  "task_id": "AT04",
+  "doc_ids": [
+    "P2"
+  ],
+  "mode": "baseline",
+  "claim": "对运行较快的Notebook，重启内核并从头运行全部单元是发现隐藏状态或遗漏步骤的一种检查办法。",
+  "support_status": "supported",
+  "evidence": {
+    "doc_id": "P2",
+    "original_text": "Because notebooks’ interactivity make them vulnerable to accidental overwriting or deletion of critical steps by the user, if your analysis runs quickly, make a habit of regularly restarting your kernel and rerunning all cells to make sure you did not accidentally delete a step while cleaning your notebook (and if you did, retrieve the code for it from version control).",
+    "page": 5
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 2608,
+  "reason": "文档在Rule 7中明确建议：对于运行较快的分析，应养成定期重启内核并重新运行所有单元的习惯，以确保没有意外删除步骤。这直接支持了CLAIM中关于重启内核并从头运行全部单元是发现隐藏状态或遗漏步骤的检查办法的说法。"
+}

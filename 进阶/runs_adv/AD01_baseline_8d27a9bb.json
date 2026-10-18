@@ -1,0 +1,18 @@
+{
+  "request_id": "8d27a9bb-9602-47f0-8d17-6ca0546a0f29",
+  "task_id": "AD01",
+  "doc_ids": [
+    "P1"
+  ],
+  "mode": "baseline",
+  "claim": "当手工修改或移动数据文件确实无法避免时，只要保存最终文件，无需记录修改对象和目的。",
+  "support_status": "contradicted",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "If manual operations cannot be avoided, you should as a minimum note down which data files were modified or moved, and for what purpose.",
+    "page": 2
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 3404,
+  "reason": "文档明确指出，如果无法避免手动操作，至少应记录修改或移动了哪些数据文件以及目的，而声称无需记录修改对象和目的与文档内容直接矛盾。"
+}

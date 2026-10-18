@@ -1,0 +1,19 @@
+{
+  "request_id": "d84fb7ae-fdb8-4305-aa9e-d6f03d3a74d9",
+  "task_id": "AT05",
+  "doc_ids": [
+    "P1",
+    "P2"
+  ],
+  "mode": "baseline",
+  "claim": "两篇文章提出的记录要求包含不同层次：P1要求能追踪结果的生成过程并把文字解释连到结果；P2进一步提醒，Notebook捕获了代码并不意味着当时的推理和直觉也被记录下来。",
+  "support_status": "insufficient",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "",
+    "page": null
+  },
+  "locator_status": "absent",
+  "elapsed_ms": 3252,
+  "reason": "文档仅包含P1（十项规则）的内容，其中规则1要求追踪结果生成过程，规则9要求将文字陈述与结果连接；但文档中完全没有提及P2或关于Notebook捕获代码不意味着记录推理和直觉的论述，因此无法判断该主张是否被支持。"
+}

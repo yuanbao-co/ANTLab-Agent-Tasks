@@ -1,0 +1,18 @@
+{
+  "request_id": "7a59d2f1-124f-486e-b9d4-66d90c0d2731",
+  "task_id": "AT04",
+  "doc_ids": [
+    "P2"
+  ],
+  "mode": "improved",
+  "claim": "对运行较快的Notebook，重启内核并从头运行全部单元是发现隐藏状态或遗漏步骤的一种检查办法。",
+  "support_status": "supported",
+  "evidence": {
+    "doc_id": "P2",
+    "original_text": "if your analysis runs quickly, make a habit of regularly restarting your kernel and rerunning all cells to make sure you did not accidentally delete a step while cleaning your notebook",
+    "page": 5
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 2419,
+  "reason": "文档明确指出，对于运行较快的分析，应养成定期重启内核并重新运行所有单元的习惯，以确保没有意外删除步骤，这直接支持了该主张。"
+}

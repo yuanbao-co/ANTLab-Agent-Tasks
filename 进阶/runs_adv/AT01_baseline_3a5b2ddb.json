@@ -1,0 +1,18 @@
+{
+  "request_id": "3a5b2ddb-6630-48ab-873a-2dcd92f60f48",
+  "task_id": "AT01",
+  "doc_ids": [
+    "P1"
+  ],
+  "mode": "baseline",
+  "claim": "这篇文章足以证明：给任意远程大语言模型API设置固定seed，就能保证每次返回逐字完全相同的答案。",
+  "support_status": "insufficient",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "",
+    "page": null
+  },
+  "locator_status": "absent",
+  "elapsed_ms": 3381,
+  "reason": "文档讨论的是计算研究的可重复性，Rule 6 提到记录随机种子可使涉及随机数的分析在相同种子下得到相同结果，但并未涉及远程大语言模型API，也未声称设置固定seed就能保证任意远程LLM API每次返回逐字完全相同的答案。因此文档不足以证明该主张。"
+}

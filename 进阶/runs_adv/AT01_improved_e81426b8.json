@@ -1,0 +1,18 @@
+{
+  "request_id": "e81426b8-3f14-488b-9127-5f2cacda00ef",
+  "task_id": "AT01",
+  "doc_ids": [
+    "P1"
+  ],
+  "mode": "improved",
+  "claim": "这篇文章足以证明：给任意远程大语言模型API设置固定seed，就能保证每次返回逐字完全相同的答案。",
+  "support_status": "insufficient",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "",
+    "page": null
+  },
+  "locator_status": "absent",
+  "elapsed_ms": 3086,
+  "reason": "文档仅讨论一般性随机种子记录（Rule 6），未涉及远程大语言模型API，也未证明固定seed能保证逐字相同输出。"
+}

@@ -1,0 +1,18 @@
+{
+  "request_id": "fa34615a-9d2c-400b-85f1-6696f028dd4f",
+  "task_id": "AT03",
+  "doc_ids": [
+    "P1"
+  ],
+  "mode": "improved",
+  "claim": "按作者的建议，每条研究结论只链接到一个最终数值已经足够，不需要知道该结果如何生成。",
+  "support_status": "contradicted",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "In order to validate and fully understand the main result, it is often useful to inspect the detailed values underlying the summaries. ... When working with summarized results, you should as a minimum at least once generate, inspect, and validate the detailed values underlying the summaries.",
+    "page": 3
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 2958,
+  "reason": "文档（规则8）强调需要检查并验证汇总结果背后的详细数据，而声称只链接到一个最终数值就足够且不需要知道结果如何生成，这与文档建议相矛盾。"
+}

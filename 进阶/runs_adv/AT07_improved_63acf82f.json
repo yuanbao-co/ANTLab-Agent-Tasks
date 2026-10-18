@@ -1,0 +1,19 @@
+{
+  "request_id": "63acf82f-da0d-45af-9df1-2b58817c9ed0",
+  "task_id": "AT07",
+  "doc_ids": [
+    "P1",
+    "P2"
+  ],
+  "mode": "improved",
+  "claim": "这两篇文章报告了一项对照实验，证明给文档查证流程增加三个协作模块会使任务准确率提高20个百分点。",
+  "support_status": "insufficient",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "",
+    "page": null
+  },
+  "locator_status": "absent",
+  "elapsed_ms": 2221,
+  "reason": "文档内容是关于计算研究可重复性的十条简单规则，并未提及任何对照实验、协作模块或任务准确率提高20个百分点的研究。因此，文档不支持该声明。"
+}

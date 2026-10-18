@@ -1,0 +1,18 @@
+{
+  "request_id": "e12b1b12-e3d1-4109-bd15-3748ea480aed",
+  "task_id": "AT02",
+  "doc_ids": [
+    "P2"
+  ],
+  "mode": "baseline",
+  "claim": "在原始数据受大小或隐私约束时，作者提出分层共享的办法，使他人在未取得完整原始数据的情况下仍有机会复用分析的后续阶段。",
+  "support_status": "supported",
+  "evidence": {
+    "doc_id": "P2",
+    "original_text": "In these cases, consider breaking down large and complex data sets into tiers such that, even if the raw data are prohibitively large to include alongside your published notebooks or are constrained by privacy or other access issues, reproducibility and interpretability isn’t lost. ... This tiered approach both provides public confidence and allows others to reproduce and reuse the latter stages of an analysis even without access to the full, raw data set.",
+    "page": 6
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 3070,
+  "reason": "文档在Rule 8中明确提出了分层共享数据的方法，并指出即使原始数据因过大或隐私限制无法共享，他人仍可在没有完整原始数据的情况下复现和复用分析的后续阶段，这与主张完全一致。"
+}

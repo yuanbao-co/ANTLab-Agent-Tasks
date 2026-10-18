@@ -1,0 +1,18 @@
+{
+  "request_id": "6d0606ec-c702-4e61-8fdd-5f8a3d766d7e",
+  "task_id": "AD02",
+  "doc_ids": [
+    "P2"
+  ],
+  "mode": "improved",
+  "claim": "把Notebook导出为静态HTML或PDF，可以帮助他人阅读，但仅此不足以让他人执行原计算。",
+  "support_status": "supported",
+  "evidence": {
+    "doc_id": "P2",
+    "original_text": "At the very least, leave static HTML/PDF versions of all notebooks stored in the final version of the repository accompanying a publication. If, in 20 years, all other execution technology fails, these are likely to still provide a readable archival record, and with a full dependences list, future users are more likely to be able to recreate the compute environment.",
+    "page": 6
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 2878,
+  "reason": "文档指出静态HTML/PDF版本主要用于阅读和存档，而执行原计算需要依赖列表、容器化环境等额外条件，因此仅导出静态版本不足以让他人执行原计算。"
+}

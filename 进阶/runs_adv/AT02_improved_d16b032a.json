@@ -1,0 +1,18 @@
+{
+  "request_id": "d16b032a-71c0-469a-a74c-2aebc6206653",
+  "task_id": "AT02",
+  "doc_ids": [
+    "P2"
+  ],
+  "mode": "improved",
+  "claim": "在原始数据受大小或隐私约束时，作者提出分层共享的办法，使他人在未取得完整原始数据的情况下仍有机会复用分析的后续阶段。",
+  "support_status": "supported",
+  "evidence": {
+    "doc_id": "P2",
+    "original_text": "This tiered approach both provides public confidence and allows others to reproduce and reuse the latter stages of an analysis even without access to the full, raw data set.",
+    "page": 6
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 2652,
+  "reason": "文档在Rule 8中明确提到，当原始数据过大或受隐私限制时，可采用分层共享（tiered approach），使他人即使没有完整原始数据也能复现和复用分析的后续阶段，这与主张完全一致。"
+}

@@ -1,0 +1,18 @@
+{
+  "request_id": "46066139-f2ef-4cf5-9cd7-816bff6ca5e4",
+  "task_id": "AD03",
+  "doc_ids": [
+    "P1"
+  ],
+  "mode": "baseline",
+  "claim": "绘图过程中做过数据转换时，只保留最终图片就满足作者关于图底层数据的建议。",
+  "support_status": "contradicted",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "In cases where plotting involves more than a direct visualization of underlying numbers, it can be useful to store both the underlying data and the processed values that are directly visualized. An example of this is the plotting of histograms, where both the values before binning (original data) and the counts per bin (heights of visualized bars) could be stored.",
+    "page": 3
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 3737,
+  "reason": "文档Rule 7明确指出，当绘图涉及数据转换（如直方图分箱）时，应同时存储原始数据和直接可视化的处理值，而不仅仅是最终图片。因此，只保留最终图片不满足作者建议。"
+}

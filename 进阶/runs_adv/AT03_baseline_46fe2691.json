@@ -1,0 +1,18 @@
+{
+  "request_id": "46fe2691-c721-4c8e-b34c-3b229fa7137f",
+  "task_id": "AT03",
+  "doc_ids": [
+    "P1"
+  ],
+  "mode": "baseline",
+  "claim": "按作者的建议，每条研究结论只链接到一个最终数值已经足够，不需要知道该结果如何生成。",
+  "support_status": "contradicted",
+  "evidence": {
+    "doc_id": "P1",
+    "original_text": "Whenever a result may be of potential interest, keep track of how it was produced. ... As a minimum, you should at least record sufficient details on programs, parameters, and manual procedures to allow yourself, in a year or so, to approximately reproduce the results.",
+    "page": 2
+  },
+  "locator_status": "valid",
+  "elapsed_ms": 5501,
+  "reason": "文档明确要求对于每个结果都要记录其生成过程（Rule 1），并强调最低限度也要记录足够的细节以便重现结果，这与声称“只需链接到最终数值，不需要知道如何生成”相矛盾。"
+}
