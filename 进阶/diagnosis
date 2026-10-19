@@ -1,0 +1,14 @@
+###  进阶A题 Baseline vs Improved 配对对照表
+
+| 题目 | 基线状态 | 改进状态 | 结论变化 | 基线定位 | 改进定位 | 耗时差异(ms) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| AD01 | contradicted | contradicted | 未变 | 2 | 2 | +389 |
+| AD02 | supported | supported | 未变 | 6 | 6 | -319 |
+| AD03 | contradicted | contradicted | 未变 | 3 | 3 | -996 |
+| AT01 | insufficient | insufficient | 未变 | None | None | -295 |
+| AT02 | supported | supported | 未变 | 6 | 6 | -418 |
+| AT03 | contradicted | contradicted | 未变 | 2 | 3 | -2543 |
+| AT04 | supported | supported | 未变 | 5 | 5 | -189 |
+| AT05 | insufficient | insufficient | 未变 | None | None | -736 |
+| AT06 | contradicted | contradicted | 未变 | 3 | 3 | -1559 |
+| AT07 | insufficient | insufficient | 未变 | None | None | -2 |

@@ -20,6 +20,5 @@ def prepare_messages(question, passages):
     ]
 
 def improve(question, passages):
-    """返回重新组织/选择的原段落列表，不能修改id/source/text或使用答案标签。
-    默认恒等映射仅用于联通，不算已完成改进。可自行扩展结构/调用，须披露与记录。"""
-    return passages
+    # 改进：把段落倒序，测试模型抗位置干扰能力
+    return list(reversed(passages))
